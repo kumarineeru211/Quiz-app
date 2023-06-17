@@ -59,6 +59,7 @@ function App() {
 
   /* A possible answer was clicked */
   const optionClicked = (isCorrect) => {
+    
     // Increment the score
     if (isCorrect) {
       setScore(score + 1);
@@ -81,7 +82,7 @@ function App() {
   return (
     <div className="App">
       {/* 1. Header  */}
-      <h1>USA Quiz 🇺🇸</h1>
+      <h1> MCQ Quiz</h1>
 
       {/* 2. Current Score  */}
       <h2>Score: {score}</h2>
